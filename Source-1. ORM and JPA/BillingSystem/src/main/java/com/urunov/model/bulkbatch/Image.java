@@ -1,9 +1,8 @@
-package com.urunov.model;
+package com.urunov.model.bulkbatch;
 
 import lombok.*;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -11,7 +10,6 @@ import javax.persistence.Id;
  * @created on 14/09/2020
  * @Project is BillingSystem
  */
-
 @Data
 @Getter
 @Setter
@@ -19,11 +17,11 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class BankAccount {
+public class Image {
 
     @Id
-    @GeneratedValue
-    private String id;
+    private Long ImageId;
 
-
+    private String title;
+    private String fileName;
 }

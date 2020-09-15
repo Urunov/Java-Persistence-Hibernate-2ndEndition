@@ -1,6 +1,6 @@
 package com.urunov.repository;
 
-import com.urunov.model.User;
+import com.urunov.model.simple.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

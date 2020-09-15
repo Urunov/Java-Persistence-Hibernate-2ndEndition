@@ -1,8 +1,10 @@
-package com.urunov.model;
+package com.urunov.model.bulkbatch;
 
+import com.sun.istack.NotNull;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
@@ -18,12 +20,18 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @ToString
 @Entity
-public class CreditCard {
+public class CreditCard extends BillingDetails{
 
     @Id
-    private Long CardId;
+    @GeneratedValue
+    private Long id;
 
-    private String number;
+    @NotNull
+    private String CardNumber;
+
+    @NotNull
     private String expMonth;
+
+    @NotNull
     private String expYear;
 }
