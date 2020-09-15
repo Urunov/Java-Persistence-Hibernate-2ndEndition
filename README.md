@@ -1,7 +1,16 @@
 # Java-Persistence-Hibernate-2ndEndition
 
 ----
-## Important terminology in forward to improvement  
+
+### Source-1. Billing System: 
+  - Model: (Inital step of the book explanation)
+   
+     ![mapping](https://user-images.githubusercontent.com/11626327/93201156-c3759800-f78b-11ea-9e01-b1e4d98b7317.png)
+       ###  Figure 3.3 Persistent classes of the CaveatEmptor domain model and their relationships
+
+
+----
+### Important terminology in forward to improvement  
 1. CRUD (create, read, update, delete) operations 
 2. Object/relational mapping (ORM)
 3. Java Persistence API (JPA)
